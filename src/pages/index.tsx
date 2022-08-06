@@ -1,6 +1,9 @@
 import dynamic from 'next/dynamic'
 // Step 5 - delete Instructions components
 import Instructions from '@/components/dom/Instructions'
+import { Leva } from 'leva'
+import { Suspense } from 'react'
+import { Loader } from '@/components/canvas/Loader'
 // import Shader from '@/components/canvas/Shader/Shader'
 
 // Dynamic import is used to prevent a payload when the website start that will include threejs r3f etc..
@@ -11,20 +14,22 @@ const Shader = dynamic(() => import('@/components/canvas/Shader/Shader'), {
   ssr: false,
 })
 
+const Sphere = dynamic(() => import('@/components/canvas/Shader/Sphere'), {
+  ssr: false,
+})
+
 // dom components goes here
 const Page = (props) => {
-  return (
-    <>
-      <Instructions />
-    </>
-  )
+  return <></>
 }
 
 // canvas components goes here
 // It will receive same props as Page component (from getStaticProps, etc.)
 Page.r3f = (props) => (
   <>
-    <Shader />
+    <Suspense fallback={<Loader />}>
+      <Sphere />
+    </Suspense>
   </>
 )
 
@@ -33,7 +38,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Index',
+      title: 'Sung Jae Yoo',
     },
   }
 }
