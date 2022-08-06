@@ -8,6 +8,10 @@ Install dependencies and start localhost server
 npm i && npm run dev
 ```
 
+## Demo
+
+![Alt Text](https://media.giphy.com/media/s7cAdN5pyjwP5gYhOt/giphy-downsized-large.gif)
+
 ## Controls
 
 Scroll up & down to zoom-in & zoom-out
