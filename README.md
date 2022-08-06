@@ -10,7 +10,7 @@ npm i && npm run dev
 
 ## Demo
 
-![](r3f-porsche.gif)
+<img src="r3f-porsche.gif" width='1000' height='500' />
 
 ## Controls
 
