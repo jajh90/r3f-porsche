@@ -10,7 +10,7 @@ npm i && npm run dev
 
 ## Demo
 
-<img src="r3f-porsche.gif" width='1000' height='500' />
+<img src="r3f-porsche.gif" width='700' height='400' />
 
 ## Controls
 
