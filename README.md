@@ -6,6 +6,6 @@ This project was bootstrapped with [`create-r3f-app`](https://github.com/utsuboc
 
 Install dependencies and start localhost server
 
-'''bash
+```bash
 npm i && npm run dev
-'''
+```
