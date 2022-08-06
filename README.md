@@ -14,6 +14,8 @@ Scroll up & down to zoom-in & zoom-out
 
 Click & drag to move the camera view
 
+Press F11 to enter Full Screen Mode (chrome)
+
 ## Warnings
 
 Ignore the typescript error prompting about the failed to register ServiceWorker.
