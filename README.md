@@ -9,3 +9,9 @@ Install dependencies and start localhost server
 ```bash
 npm i && npm run dev
 ```
+
+## Controls
+
+Scroll up & down to zoom-in & zoom-out
+
+Click & drag to move the camera view
