@@ -10,7 +10,7 @@ npm i && npm run dev
 
 ## Demo
 
-<img src="https://media.giphy.com/media/s7cAdN5pyjwP5gYhOt/giphy-downsized-large.gif" />
+![](r3f-porsche.gif)
 
 ## Controls
 
